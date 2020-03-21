@@ -1,65 +1,67 @@
+require('dotenv').config();
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Dieta Bytyqi`,
+    name: `Dieta Bytyqi`,
+    siteUrl: `https://www.dietabytyqi.com`,
+    description: `Artikuj dhe shkrime te ndryshme`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Kur pranvera hesht dhe mëngjeset flenë, më duhet veç një melodi. Unë dhe ulësja e përkyer, duke udhëtuar drejt imagjinatës sime.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/dietabytyqi`,
       },
-      {
-        name: `github`,
-        url: `https://github.com/narative`,
-      },
+
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/dietabytyqi`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/dietabytyqi`,
       },
       {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `facebook`,
+        url: `https://www.facebook.com/dieta.bytyci`,
       },
     ],
   },
   plugins: [
     {
-      resolve: "@narative/gatsby-theme-novela",
-      options: {
-        contentPosts: "content/posts",
-        contentAuthors: "content/authors",
-        basePath: "/",
-        authorsPage: true,
-        sources: {
-          local: true,
-          // contentful: true,
-        },
+    resolve: 'gatsby-source-contentful',
+    options: {
+      spaceId: process.env.CONTENTFUL_SPACE_ID,
+      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    },
+  },
+
+     {
+    resolve: '@narative/gatsby-theme-novela',
+    options: {
+      contentPosts: 'content/posts',
+      contentAuthors: 'content/authors',
+      rootPath: '/',
+      basePath: '/',
+      mailchimp: false,
+      sources: {
+        local: false,
+        contentful: true,
       },
     },
+  },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Dieta Bytyqi`,
+        short_name: `Dieta`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
+        icon: `src/components/images/eta.png`,
       },
     },
   ],
