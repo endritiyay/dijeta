@@ -1,15 +1,11 @@
 import React from 'react';
-import styled from "@emotion/styled";
 
-import mediaqueries from "@styles/media";
-
-import { Icon } from '@types';
 /**
  * Paste in your SVG logo and return it from this component.
  * Make sure you have a height set for your logo.
  * It is recommended to keep the height within 25-35px.
  */
- {
+export default function Logo() {
   return (
     <svg width="90.701" height="19.703" version="1.1" viewBox="0 0 23.998 5.2131" xmlns="http://www.w3.org/2000/svg">
      <g transform="translate(-10.727 -291.61)">
@@ -31,4 +27,3 @@ import { Icon } from '@types';
     </svg>
   );
 }
-export default function Logo ()
