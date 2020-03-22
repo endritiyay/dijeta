@@ -5,7 +5,10 @@ module.exports = {
     name: `Dieta Bytyqi`,
     siteUrl: `https://www.dietabytyqi.com`,
     description: `Artikuj dhe shkrime te ndryshme`,
-   
+    hero: {
+      heading: ``,
+      maxWidth: 652,
+    },
     social: [
       {
         name: `twitter`,
