@@ -5,10 +5,7 @@ module.exports = {
     name: `Dieta Bytyqi`,
     siteUrl: `https://www.dietabytyqi.com`,
     description: `Artikuj dhe shkrime te ndryshme`,
-    hero: {
-      heading: `Kur pranvera hesht dhe mëngjeset flenë, më duhet veç një melodi. Unë dhe ulësja e përkyer, duke udhëtuar drejt imagjinatës sime.`,
-      maxWidth: 652,
-    },
+   
     social: [
       {
         name: `twitter`,
