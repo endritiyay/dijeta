@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://www.dietabytyqi.com`,
     description: `Artikuj dhe shkrime te ndryshme`,
     hero: {
-      heading: `A Writing Enthusiast`,
+      heading: ``,
       maxWidth: 652,
     },
     social: [
