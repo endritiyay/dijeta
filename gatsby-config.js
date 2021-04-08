@@ -6,8 +6,8 @@ module.exports = {
     siteUrl: `https://www.dietabytyqi.com`,
     description: `Artikuj dhe shkrime te ndryshme`,
     hero: {
-      heading: ``,
-      maxWidth: 652,
+      heading: `Producing a vivid impression of reality through artistry and imagination.`,
+      maxWidth: 950,
     },
     social: [
       {
@@ -35,6 +35,7 @@ module.exports = {
     options: {
       spaceId: process.env.CONTENTFUL_SPACE_ID,
       accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      downloadLocal: true,
     },
   },
 
