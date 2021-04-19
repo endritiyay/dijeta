@@ -1,3 +1,5 @@
+import "@fontsource/karla";
+import "@fontsource/spectral";
 import React, { useContext } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import styled from '@emotion/styled';
@@ -120,7 +122,7 @@ const HeadingContainer = styled.div`
 `;
 
 const HeroHeading = styled.h1`
-  font-family: 'Merriweather';
+  font-family: Spectral;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;

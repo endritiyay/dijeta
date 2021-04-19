@@ -10,6 +10,8 @@
     "proxy": "netlify-cms-proxy-server"
   },
   "dependencies": {
+    "@fontsource/karla": "^4.2.2",
+    "@fontsource/spectral": "^4.2.3",
     "@narative/gatsby-theme-novela": "0.15.7",
     "contentful": "^8.2.1",
     "contentful-cli": "^1.5.40",

@@ -1,3 +1,4 @@
+import "@fontsource/spectral/500.css";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 
@@ -11,7 +12,7 @@ import mediaqueries from "@styles/media";
 const commonStyles = p => css`
   font-weight: bold;
   color: ${p.theme.colors.primary};
-  font-family: ${p.theme.fonts.serif};
+  font-family: 'Spectral' !important;
 `;
 
 const h1 = styled.h1`

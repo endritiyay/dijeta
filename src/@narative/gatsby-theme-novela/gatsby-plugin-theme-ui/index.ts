@@ -1,5 +1,6 @@
+import "@fontsource/karla";
+import "@fontsource/spectral";
 import merge from 'lodash/merge';
-
 import colors from './colors';
 import tags from './tags';
 
@@ -14,10 +15,9 @@ const breakpoints = [
 ];
 
 const fonts = {
-  serif: "'Merriweather', Georgia, Serif, ",
-  sansSerif:
-    "'SF Pro Display', '-apple-system', 'BlinkMacSystemFont', 'San Francisco', 'Helvetica Neue', 'Helvetica', 'Ubuntu', 'Roboto', 'Noto', 'Segoe UI', 'Arial', sans-serif",
-  monospace: `"Operator Mono", Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace`,
+  serif: "'Spectral', serif",
+  sansSerif: "'Karla', 'Roboto', sans-serif",
+  monospace: `"Karla", Consolas, monospace`,
 };
 
 const colorModeTransition =

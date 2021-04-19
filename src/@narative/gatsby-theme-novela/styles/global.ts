@@ -1,10 +1,8 @@
+import "@fontsource/karla";
+import "@fontsource/spectral";
 import { css } from "@emotion/core";
 
 export const globalStyles = css`
-  /**
-   * Thanks to Benjamin De Cock
-   * https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d
-   */
   :root {
     --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
     --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
@@ -15,11 +13,16 @@ export const globalStyles = css`
   }
 
   @font-face {
-    font-family: "-apple-system", "BlinkMacSystemFont", "San Francisco",
+    font-family: "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
       "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI",
       "Arial", sans-serif;
     font-weight: 400;
     font-style: normal;
+  }
+  @font-face {
+    font-family: Spectral;
+    font-weight: 700;
+    font-style: bold;
   }
 
   *,
@@ -44,7 +47,7 @@ export const globalStyles = css`
   }
 
   body {
-    font-family: "-apple-system", "BlinkMacSystemFont", "San Francisco",
+    font-family: "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
       "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI",
       "Arial", sans-serif;
     font-size: 1.6rem;
@@ -81,9 +84,10 @@ export const globalStyles = css`
   textarea,
   select,
   button {
-    font-family: "-apple-system", "BlinkMacSystemFont", "San Francisco",
+    font-family: "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
       "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI",
       "Arial", sans-serif;
+      
   }
 
   .underline {
