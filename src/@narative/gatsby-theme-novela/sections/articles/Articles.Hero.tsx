@@ -122,7 +122,7 @@ const HeadingContainer = styled.div`
 `;
 
 const HeroHeading = styled.h1`
-  font-family: Spectral;
+  font-family: Playfair Display;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;

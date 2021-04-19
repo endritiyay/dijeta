@@ -1,5 +1,5 @@
 import "@fontsource/karla";
-import "@fontsource/spectral";
+import "@fontsource/playfair-display";
 import { css } from "@emotion/core";
 
 export const globalStyles = css`
@@ -13,14 +13,14 @@ export const globalStyles = css`
   }
 
   @font-face {
-    font-family: "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
-      "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI",
+    font-family: "Roboto", "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
+      "Helvetica Neue", "Helvetica", "Ubuntu", "Noto", "Segoe UI",
       "Arial", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   @font-face {
-    font-family: Spectral;
+    font-family: Playfair Display;
     font-weight: 700;
     font-style: bold;
   }
@@ -47,8 +47,8 @@ export const globalStyles = css`
   }
 
   body {
-    font-family: "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
-      "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI",
+    font-family: "Roboto", "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
+      "Helvetica Neue", "Helvetica", "Ubuntu", "Noto", "Segoe UI",
       "Arial", sans-serif;
     font-size: 1.6rem;
     margin: 0;
@@ -84,8 +84,8 @@ export const globalStyles = css`
   textarea,
   select,
   button {
-    font-family: "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
-      "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI",
+    font-family: "Roboto", "Karla", "-apple-system", "BlinkMacSystemFont", "San Francisco",
+      "Helvetica Neue", "Helvetica", "Ubuntu",  "Noto", "Segoe UI",
       "Arial", sans-serif;
       
   }

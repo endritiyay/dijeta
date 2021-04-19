@@ -15,9 +15,9 @@ const breakpoints = [
 ];
 
 const fonts = {
-  serif: "'Spectral', serif",
-  sansSerif: "'Karla', 'Roboto', sans-serif",
-  monospace: `"Karla", Consolas, monospace`,
+  serif: "'Playfair Display', serif",
+  sansSerif: "'Roboto', sans-serif",
+  monospace: `"Roboto", Consolas, monospace`,
 };
 
 const colorModeTransition =

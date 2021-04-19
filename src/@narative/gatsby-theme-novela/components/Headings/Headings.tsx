@@ -1,4 +1,4 @@
-import "@fontsource/spectral/500.css";
+import "@fontsource/playfair-display";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 
@@ -12,7 +12,7 @@ import mediaqueries from "@styles/media";
 const commonStyles = p => css`
   font-weight: bold;
   color: ${p.theme.colors.primary};
-  font-family: 'Spectral' !important;
+  font-family: 'Playfair Display' !important;
 `;
 
 const h1 = styled.h1`
