@@ -4,7 +4,7 @@ module.exports = {
     title: `Dieta Bytyqi`,
     name: `Dieta Bytyqi`,
     siteUrl: `https://www.dietabytyqi.com`,
-    description: `Artikuj dhe shkrime te ndryshme`,
+    description: `Creative Writing`,
     hero: {
       heading: `Producing a vivid impression of reality through artistry and imagination.`,
       maxWidth: 950,
